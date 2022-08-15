@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding-top: 700px;
+    text-align: center;
+}
+
+.profile {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#074701 0%, #002a53 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#name {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#bio {
+    font-size: 30px;
+    font-family: cursive;
+    margin: 100px;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 8;
+    cursor: pointer;
+    height:  5%;
+    padding-bottom: 10px;
+    background: linear-gradient(#074701 0%, #002a53 100%);
+
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: serif;
+}
+a{
+text-decoration: ;
+}
